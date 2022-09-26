@@ -28,13 +28,13 @@ const Projects: React.FC = () =>{
           </h3> 
   
         <div className='relative w-full flex overflow-hidden  overflow-x-scroll  snap-x snap-mandatory z-20'>
-           {projects.map((p,index) => (
+           {projects.map((p,) => (
   
             <div key={index} className='w-screen flex-shrink-0 snap-center items-center flex flex-col justify-center
              space-y-5 md:p-44 xl:p-60 h-screen'>
                 <motion.img
                 initial={{
-                  y:-300, 
+                  y:-300,
                   opacity:0,
                 }}
                 transition={{

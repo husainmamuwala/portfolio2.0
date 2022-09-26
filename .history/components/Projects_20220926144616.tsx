@@ -34,7 +34,7 @@ const Projects: React.FC = () =>{
              space-y-5 md:p-44 xl:p-60 h-screen'>
                 <motion.img
                 initial={{
-                  y:-300, 
+                  y:-300,
                   opacity:0,
                 }}
                 transition={{
